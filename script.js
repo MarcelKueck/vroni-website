@@ -148,7 +148,15 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             nav ul li a.cta-button {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .language-switcher {
                 margin-top: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     `;

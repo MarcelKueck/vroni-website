@@ -1,0 +1,240 @@
+{
+  "general": {
+    "websiteTitle": "Veronika Raum | Medical Visual Storyteller"
+  },
+  "navigation": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "process": "Process",
+    "clients": "Clients",
+    "resources": "Resources",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Where Medical Expertise Meets Visual Storytelling Excellence",
+    "subtitle": "Crafting scientifically precise and emotionally compelling visual narratives for the healthcare sector",
+    "cta": "Discuss Your Medical Project"
+  },
+  "medicalFocus": {
+    "title": "Specialized Medical Visual Expertise",
+    "technologyTitle": "Medical Technology Innovators",
+    "technologyDesc": "Visualizing complex medical innovations with scientific precision and compelling narratives",
+    "practiceTitle": "Private Practice Specialists",
+    "practiceDesc": "Creating visual stories that balance medical authority with patient approachability",
+    "institutionTitle": "Healthcare Institutions & Companies",
+    "institutionDesc": "Developing comprehensive visual communication strategies for complex healthcare organizations"
+  },
+  "caseStudies": {
+    "title": "Featured Case Studies",
+    "devanthroTag": "Medical Technology",
+    "devanthroTitle": "Devanthro: The Robody Company",
+    "devanthroDesc": "Visualizing complex robotic technology with medical applications, resulting in 40% increase in investor comprehension.",
+    "kinderklinikTag": "Private Practice",
+    "kinderklinikTitle": "Kinderklinik Dr. Habilt Groebenzell",
+    "kinderklinikDesc": "Communicating specialized pediatric care with warmth and precision, resulting in 35% increase in new patient inquiries.",
+    "hospitalTag": "Healthcare Institution",
+    "hospitalTitle": "Regional Medical Center",
+    "hospitalDesc": "Creating comprehensive facility visualization that connects innovation with patient outcomes.",
+    "viewCaseStudy": "View Case Study"
+  },
+  "dualExpertise": {
+    "title": "Dual Expertise Advantage",
+    "subtitle": "Active medical education combined with mastery of professional visual equipment creates a unique perspective that transforms healthcare communication.",
+    "point1": "Scientific accuracy in all visual narratives",
+    "point2": "Proper medical terminology and conceptual understanding",
+    "point3": "Regulation-compliant content creation",
+    "point4": "Ability to translate complex medical concepts visually",
+    "point5": "Efficient collaboration with healthcare professionals"
+  },
+  "equipment": {
+    "title": "Professional Equipment Specialized for Medical Environments",
+    "cameras": "4K Medical-Grade Cameras",
+    "camerasDesc": "Ultra-high definition capture with specialized color accuracy for medical procedures",
+    "stabilization": "Stabilization Systems",
+    "stabilizationDesc": "Advanced equipment for smooth documentation of medical procedures",
+    "aerial": "Aerial Documentation",
+    "aerialDesc": "Comprehensive facility visualization with precision drone technology",
+    "lighting": "Specialized Lighting",
+    "lightingDesc": "Medical-grade lighting for accurate tissue and color rendering"
+  },
+  "testimonial": {
+    "quote": "Veronika's unique combination of medical knowledge and visual storytelling expertise allowed us to communicate our complex robotic technology with unprecedented clarity. Her work has been instrumental in helping both investors and healthcare partners understand our innovation.",
+    "name": "Dr. Stefan Schwarz",
+    "position": "Devanthro GmbH"
+  },
+  "about": {
+    "title": "About Veronika Raum",
+    "subtitle": "Standing at the intersection of medical science and visual artistry with a unique dual expertise.",
+    "paragraph1": "With parallel paths in medicine and visual storytelling, I bring a rare perspective to healthcare communication. My active medical education ensures scientific precision, while my mastery of professional visual equipment enables compelling storytelling.",
+    "paragraph2": "Based in Munich, I exclusively serve the healthcare sector, partnering with medical technology startups, private practitioners, hospitals, and healthcare companies to elevate their visual communication strategies.",
+    "cta": "Discuss Your Medical Project"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "all": "All Projects",
+    "technology": "Medical Technology",
+    "practice": "Private Practice",
+    "institution": "Healthcare Institutions",
+    "viewProject": "View Project",
+    "projects": {
+      "devanthro": {
+        "title": "Devanthro Medical Robotics",
+        "desc": "Medical Technology Visualization"
+      },
+      "surgicalDevice": {
+        "title": "Surgical Device Visualization",
+        "desc": "Medical Equipment Documentation"
+      },
+      "kinderklinik": {
+        "title": "Kinderklinik Dr. Habilt",
+        "desc": "Pediatric Care Storytelling"
+      },
+      "clinic": {
+        "title": "Specialized Clinic Environment",
+        "desc": "Practice Documentation"
+      },
+      "hospital": {
+        "title": "Regional Hospital Facility",
+        "desc": "Healthcare Environment Visualization"
+      },
+      "research": {
+        "title": "Medical Research Center",
+        "desc": "Scientific Workflow Documentation"
+      }
+    },
+    "cta": "Discuss Your Medical Visual Project"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Precisely defined visual offerings for the medical sector",
+    "innovationTitle": "Medical Innovation Documentation",
+    "innovationItems": [
+      "Precision product visualization with clinical context",
+      "Surgical/procedural application footage",
+      "R&D process storytelling",
+      "Technical specification visualization",
+      "Comparative effectiveness demonstration"
+    ],
+    "environmentTitle": "Healthcare Environment Visualization",
+    "environmentItems": [
+      "Facility documentation with architectural precision",
+      "Treatment space showcases emphasizing patient experience",
+      "Equipment and technology integration",
+      "Sterile environment filming with proper protocols",
+      "Aerial facility perspectives (drone capabilities)"
+    ],
+    "professionalTitle": "Medical Professional Storytelling",
+    "professionalItems": [
+      "Physician and specialist profile development",
+      "Clinical team dynamics documentation",
+      "Surgical excellence communication",
+      "Expert commentary and thought leadership content",
+      "Conference presentation and speaking documentation"
+    ],
+    "educationTitle": "Patient Education Visualization",
+    "educationItems": [
+      "Procedure explanation with anatomical accuracy",
+      "Treatment option comparison visualizations",
+      "Preparation and recovery guidance imagery",
+      "Complex medical concept simplification",
+      "Condition management visualization"
+    ],
+    "cta": "Inquire About Services"
+  },
+  "process": {
+    "title": "Working Process",
+    "subtitle": "A transparent approach designed for medical professionals",
+    "step1Title": "Discovery & Diagnosis",
+    "step1Desc": "In-depth consultation on medical communication objectives, audience analysis, and compliance considerations.",
+    "step2Title": "Strategic Planning",
+    "step2Desc": "Shot list development with medical precision, environment assessment, and timeline development aligned with medical operations.",
+    "step3Title": "Clinical Excellence Execution",
+    "step3Desc": "On-site filming with minimal disruption, strict adherence to sterile protocols, and scientific accuracy verification.",
+    "step4Title": "Post-Production Precision",
+    "step4Desc": "Medical accuracy review, color grading for clinical accuracy, and compliance verification before delivery.",
+    "step5Title": "Delivery & Implementation",
+    "step5Desc": "Final outputs delivered in multiple formats, usage guidance, and archive maintenance for future content needs."
+  },
+  "clients": {
+    "title": "Client Showcase",
+    "subtitle": "A prestigious portfolio of healthcare clients",
+    "technologyTitle": "Medical Technology",
+    "devanthro": "Devanthro (The Robody Company)",
+    "startup": "Medical Technology Startup",
+    "manufacturer": "Medical Device Manufacturer",
+    "practiceTitle": "Private Practices",
+    "kinderklinik": "Kinderklinik Dr. Habilt",
+    "specializedClinic": "Specialized Clinic",
+    "surgicalPractice": "Surgical Practice",
+    "institutionTitle": "Healthcare Institutions",
+    "regionalHospital": "Regional Hospital",
+    "researchCenter": "Medical Research Center",
+    "pharma": "Pharmaceutical Company"
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "A curated knowledge center establishing healthcare visual authority",
+    "guide": {
+      "tag": "Guide",
+      "title": "Visual Communication Standards for Medical Audiences",
+      "desc": "Essential principles for effective visual storytelling in healthcare contexts."
+    },
+    "caseStudy": {
+      "tag": "Case Study",
+      "title": "Improving Patient Understanding Through Visual Storytelling",
+      "desc": "How visual narratives can enhance comprehension of complex medical information."
+    },
+    "article": {
+      "tag": "Article",
+      "title": "Regulatory Compliance in Healthcare Visual Documentation",
+      "desc": "Navigating legal requirements for medical visual content creation."
+    },
+    "resource": {
+      "tag": "Resource",
+      "title": "Technical Requirements for Medical Procedure Filming",
+      "desc": "Equipment specifications and protocols for clinical environment documentation."
+    },
+    "download": "Download Guide",
+    "read": "Read",
+    "view": "View Resource"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "A streamlined process designed for healthcare professionals",
+    "getInTouchTitle": "Get in Touch",
+    "getInTouchText": "I accept a limited number of healthcare clients between my medical studies to ensure exceptional focus and excellence for each project.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "munich": "Munich, Germany",
+    "gdprNote": "Note: All client information is handled in accordance with GDPR and healthcare data compliance regulations.",
+    "formTitle": "Medical Project Inquiry",
+    "name": "Name*",
+    "organization": "Organization*",
+    "emailAddress": "Email Address*",
+    "phoneNumber": "Phone Number",
+    "projectType": "Project Type*",
+    "selectType": "Select project type",
+    "innovation": "Medical Innovation Documentation",
+    "environment": "Healthcare Environment Visualization",
+    "professional": "Medical Professional Storytelling",
+    "education": "Patient Education Visualization",
+    "other": "Other (please specify)",
+    "projectDetails": "Project Details*",
+    "timeline": "Project Timeline",
+    "selectTimeline": "Select timeline",
+    "urgent": "Urgent (within 2 weeks)",
+    "standard": "Standard (2-4 weeks)",
+    "flexible": "Flexible (1-3 months)",
+    "planning": "Future Planning",
+    "consent": "I consent to the processing of my data in accordance with the privacy policy*",
+    "submit": "Submit Inquiry"
+  },
+  "footer": {
+    "copyright": "© 2025 Veronika Raum. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "attribution": "Image Attribution"
+  }
+}

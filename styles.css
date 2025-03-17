@@ -238,6 +238,39 @@ nav ul li a.active::after {
     width: 100%;
 }
 
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.language-switcher button {
+    background: none;
+    border: none;
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--gray-dark);
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.language-switcher button.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.language-switcher button:hover {
+    color: var(--primary-color);
+}
+
+.language-divider {
+    margin: 0 0.3rem;
+    color: var(--gray-dark);
+}
+
 .mobile-menu-icon {
     display: none;
     font-size: 1.5rem;

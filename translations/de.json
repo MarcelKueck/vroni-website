@@ -1,0 +1,240 @@
+{
+  "general": {
+    "websiteTitle": "Veronika Raum | Medizinische Visuelle Geschichtenerzählerin"
+  },
+  "navigation": {
+    "about": "Über mich",
+    "portfolio": "Portfolio",
+    "services": "Leistungen",
+    "process": "Prozess",
+    "clients": "Kunden",
+    "resources": "Ressourcen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Wo medizinische Expertise auf visuelle Erzählkunst trifft",
+    "subtitle": "Wissenschaftlich präzise und emotional überzeugende visuelle Narrative für den Gesundheitssektor",
+    "cta": "Medizinisches Projekt besprechen"
+  },
+  "medicalFocus": {
+    "title": "Spezialisierte medizinische visuelle Expertise",
+    "technologyTitle": "Medizintechnik-Innovatoren",
+    "technologyDesc": "Visualisierung komplexer medizinischer Innovationen mit wissenschaftlicher Präzision und überzeugenden Narrativen",
+    "practiceTitle": "Facharztpraxen",
+    "practiceDesc": "Erstellung visueller Geschichten, die medizinische Autorität mit Patientenzugänglichkeit verbinden",
+    "institutionTitle": "Gesundheitseinrichtungen & Unternehmen",
+    "institutionDesc": "Entwicklung umfassender visueller Kommunikationsstrategien für komplexe Gesundheitsorganisationen"
+  },
+  "caseStudies": {
+    "title": "Ausgewählte Fallstudien",
+    "devanthroTag": "Medizintechnik",
+    "devanthroTitle": "Devanthro: The Robody Company",
+    "devanthroDesc": "Visualisierung komplexer Robotertechnologie mit medizinischen Anwendungen, resultierend in 40% mehr Investorenverständnis.",
+    "kinderklinikTag": "Facharztpraxis",
+    "kinderklinikTitle": "Kinderklinik Dr. Habilt Groebenzell",
+    "kinderklinikDesc": "Vermittlung spezialisierter pädiatrischer Versorgung mit Wärme und Präzision, resultierend in 35% mehr Patientenanfragen.",
+    "hospitalTag": "Gesundheitseinrichtung",
+    "hospitalTitle": "Regionales Medizinzentrum",
+    "hospitalDesc": "Umfassende Visualisierung von Einrichtungen, die Innovation mit Patientenergebnissen verbindet.",
+    "viewCaseStudy": "Fallstudie ansehen"
+  },
+  "dualExpertise": {
+    "title": "Vorteil der dualen Expertise",
+    "subtitle": "Aktive medizinische Ausbildung kombiniert mit der Beherrschung professioneller visueller Ausrüstung schafft eine einzigartige Perspektive, die die Gesundheitskommunikation transformiert.",
+    "point1": "Wissenschaftliche Genauigkeit in allen visuellen Narrativen",
+    "point2": "Korrekte medizinische Terminologie und konzeptionelles Verständnis",
+    "point3": "Regulationskonforme Inhaltserstellung",
+    "point4": "Fähigkeit, komplexe medizinische Konzepte visuell zu übersetzen",
+    "point5": "Effiziente Zusammenarbeit mit Gesundheitsexperten"
+  },
+  "equipment": {
+    "title": "Professionelle Ausrüstung spezialisiert für medizinische Umgebungen",
+    "cameras": "4K Medizinische Kameras",
+    "camerasDesc": "Ultra-hochauflösende Aufnahmen mit spezialisierter Farbgenauigkeit für medizinische Verfahren",
+    "stabilization": "Stabilisierungssysteme",
+    "stabilizationDesc": "Fortschrittliche Ausrüstung für eine reibungslose Dokumentation medizinischer Verfahren",
+    "aerial": "Luftaufnahmen",
+    "aerialDesc": "Umfassende Einrichtungsvisualisierung mit Präzisionsdrohnentechnologie",
+    "lighting": "Spezialisierte Beleuchtung",
+    "lightingDesc": "Medizinische Beleuchtung für präzise Gewebe- und Farbwiedergabe"
+  },
+  "testimonial": {
+    "quote": "Veronikas einzigartige Kombination aus medizinischem Wissen und visuellem Storytelling-Fachwissen ermöglichte es uns, unsere komplexe Robotertechnologie mit beispielloser Klarheit zu kommunizieren. Ihre Arbeit war maßgeblich daran beteiligt, sowohl Investoren als auch Gesundheitspartner zum Verständnis unserer Innovation zu verhelfen.",
+    "name": "Dr. Stefan Schwarz",
+    "position": "Devanthro GmbH"
+  },
+  "about": {
+    "title": "Über Veronika Raum",
+    "subtitle": "An der Schnittstelle von Medizinwissenschaft und visueller Kunst mit einer einzigartigen dualen Expertise.",
+    "paragraph1": "Mit parallelen Wegen in Medizin und visuellem Storytelling bringe ich eine seltene Perspektive in die Gesundheitskommunikation. Meine aktive medizinische Ausbildung gewährleistet wissenschaftliche Präzision, während meine Beherrschung professioneller visueller Ausrüstung überzeugendes Storytelling ermöglicht.",
+    "paragraph2": "Basierend in München bediene ich ausschließlich den Gesundheitssektor und arbeite mit Medizintechnik-Startups, niedergelassenen Ärzten, Krankenhäusern und Gesundheitsunternehmen zusammen, um deren visuelle Kommunikationsstrategien zu verbessern.",
+    "cta": "Medizinisches Projekt besprechen"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "all": "Alle Projekte",
+    "technology": "Medizintechnik",
+    "practice": "Facharztpraxis",
+    "institution": "Gesundheitseinrichtungen",
+    "viewProject": "Projekt ansehen",
+    "projects": {
+      "devanthro": {
+        "title": "Devanthro Medizinische Robotik",
+        "desc": "Visualisierung von Medizintechnik"
+      },
+      "surgicalDevice": {
+        "title": "Chirurgische Gerätevisualisierung",
+        "desc": "Dokumentation medizinischer Geräte"
+      },
+      "kinderklinik": {
+        "title": "Kinderklinik Dr. Habilt",
+        "desc": "Pädiatrisches Storytelling"
+      },
+      "clinic": {
+        "title": "Spezialisierte Klinikumgebung",
+        "desc": "Praxisdokumentation"
+      },
+      "hospital": {
+        "title": "Regionale Krankenhauseinrichtung",
+        "desc": "Gesundheitsumgebungsvisualisierung"
+      },
+      "research": {
+        "title": "Medizinisches Forschungszentrum",
+        "desc": "Wissenschaftliche Workflow-Dokumentation"
+      }
+    },
+    "cta": "Medizinisches visuelles Projekt besprechen"
+  },
+  "services": {
+    "title": "Leistungen",
+    "subtitle": "Präzise definierte visuelle Angebote für den medizinischen Sektor",
+    "innovationTitle": "Dokumentation medizinischer Innovationen",
+    "innovationItems": [
+      "Präzise Produktvisualisierung mit klinischem Kontext",
+      "Chirurgische/prozedurale Anwendungsaufnahmen",
+      "F&E-Prozess-Storytelling",
+      "Visualisierung technischer Spezifikationen",
+      "Demonstration der vergleichenden Wirksamkeit"
+    ],
+    "environmentTitle": "Visualisierung von Gesundheitsumgebungen",
+    "environmentItems": [
+      "Einrichtungsdokumentation mit architektonischer Präzision",
+      "Behandlungsraumdarstellungen mit Fokus auf Patientenerfahrung",
+      "Geräte- und Technologieintegration",
+      "Sterile Umgebungsaufnahmen mit angemessenen Protokollen",
+      "Luftperspektiven der Einrichtung (Drohnenfähigkeiten)"
+    ],
+    "professionalTitle": "Medizinisches Fachpersonal Storytelling",
+    "professionalItems": [
+      "Entwicklung von Profilen für Ärzte und Spezialisten",
+      "Dokumentation der klinischen Teamdynamik",
+      "Kommunikation chirurgischer Exzellenz",
+      "Expertenkommentare und Thought Leadership-Inhalte",
+      "Dokumentation von Konferenzpräsentationen und Vorträgen"
+    ],
+    "educationTitle": "Patientenaufklärung Visualisierung",
+    "educationItems": [
+      "Erklärung von Verfahren mit anatomischer Genauigkeit",
+      "Visualisierungen zum Vergleich von Behandlungsoptionen",
+      "Bild- und Videomaterial zur Vorbereitung und Genesung",
+      "Vereinfachung komplexer medizinischer Konzepte",
+      "Visualisierung des Krankheitsmanagements"
+    ],
+    "cta": "Leistungen anfragen"
+  },
+  "process": {
+    "title": "Arbeitsprozess",
+    "subtitle": "Ein transparenter Ansatz, konzipiert für medizinische Fachleute",
+    "step1Title": "Entdeckung & Diagnose",
+    "step1Desc": "Eingehende Beratung zu medizinischen Kommunikationszielen, Zielgruppenanalyse und Compliance-Überlegungen.",
+    "step2Title": "Strategische Planung",
+    "step2Desc": "Aufnahmelisten-Entwicklung mit medizinischer Präzision, Umgebungsbewertung und Zeitplanung abgestimmt auf medizinische Abläufe.",
+    "step3Title": "Umsetzung klinischer Exzellenz",
+    "step3Desc": "Vor-Ort-Filmaufnahmen mit minimaler Störung, strikte Einhaltung steriler Protokolle und Überprüfung der wissenschaftlichen Genauigkeit.",
+    "step4Title": "Postproduktionspräzision",
+    "step4Desc": "Überprüfung der medizinischen Genauigkeit, Farbkorrektur für klinische Präzision und Compliance-Verifizierung vor der Auslieferung.",
+    "step5Title": "Auslieferung & Implementierung",
+    "step5Desc": "Endausgaben in mehreren Formaten, Nutzungsanleitung und Archivpflege für zukünftige Inhaltsanforderungen."
+  },
+  "clients": {
+    "title": "Kundenübersicht",
+    "subtitle": "Ein renommiertes Portfolio von Gesundheitskunden",
+    "technologyTitle": "Medizintechnik",
+    "devanthro": "Devanthro (The Robody Company)",
+    "startup": "Medizintechnik-Startup",
+    "manufacturer": "Medizingerätehersteller",
+    "practiceTitle": "Facharztpraxen",
+    "kinderklinik": "Kinderklinik Dr. Habilt",
+    "specializedClinic": "Spezialisierte Klinik",
+    "surgicalPractice": "Chirurgische Praxis",
+    "institutionTitle": "Gesundheitseinrichtungen",
+    "regionalHospital": "Regionales Krankenhaus",
+    "researchCenter": "Medizinisches Forschungszentrum",
+    "pharma": "Pharmaunternehmen"
+  },
+  "resources": {
+    "title": "Ressourcen",
+    "subtitle": "Ein kuratiertes Wissenszentrum, das visuelle Autorität im Gesundheitswesen etabliert",
+    "guide": {
+      "tag": "Leitfaden",
+      "title": "Visuelle Kommunikationsstandards für medizinische Zielgruppen",
+      "desc": "Wesentliche Prinzipien für effektives visuelles Storytelling in Gesundheitskontexten."
+    },
+    "caseStudy": {
+      "tag": "Fallstudie",
+      "title": "Verbesserung des Patientenverständnisses durch visuelles Storytelling",
+      "desc": "Wie visuelle Narrative das Verständnis komplexer medizinischer Informationen verbessern können."
+    },
+    "article": {
+      "tag": "Artikel",
+      "title": "Regulatorische Compliance in der visuellen Dokumentation im Gesundheitswesen",
+      "desc": "Navigation durch rechtliche Anforderungen für die Erstellung visueller medizinischer Inhalte."
+    },
+    "resource": {
+      "tag": "Ressource",
+      "title": "Technische Anforderungen für die Filmaufnahme medizinischer Verfahren",
+      "desc": "Gerätespezifikationen und Protokolle für die Dokumentation klinischer Umgebungen."
+    },
+    "download": "Leitfaden herunterladen",
+    "read": "Lesen",
+    "view": "Ansehen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Ein optimierter Prozess, konzipiert für Gesundheitsexperten",
+    "getInTouchTitle": "Kontaktieren Sie uns",
+    "getInTouchText": "Ich akzeptiere eine begrenzte Anzahl von Gesundheitskunden zwischen meinen medizinischen Studien, um außergewöhnlichen Fokus und Exzellenz für jedes Projekt zu gewährleisten.",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "munich": "München, Deutschland",
+    "gdprNote": "Hinweis: Alle Kundeninformationen werden gemäß DSGVO und Gesundheitsdaten-Compliance-Vorschriften behandelt.",
+    "formTitle": "Medizinische Projektanfrage",
+    "name": "Name*",
+    "organization": "Organisation*",
+    "emailAddress": "E-Mail-Adresse*",
+    "phoneNumber": "Telefonnummer",
+    "projectType": "Projekttyp*",
+    "selectType": "Projekttyp auswählen",
+    "innovation": "Dokumentation medizinischer Innovationen",
+    "environment": "Visualisierung von Gesundheitsumgebungen",
+    "professional": "Medizinisches Fachpersonal Storytelling",
+    "education": "Patientenaufklärung Visualisierung",
+    "other": "Sonstiges (bitte spezifizieren)",
+    "projectDetails": "Projektdetails*",
+    "timeline": "Projektzeitplan",
+    "selectTimeline": "Zeitplan auswählen",
+    "urgent": "Dringend (innerhalb von 2 Wochen)",
+    "standard": "Standard (2-4 Wochen)",
+    "flexible": "Flexibel (1-3 Monate)",
+    "planning": "Zukunftsplanung",
+    "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzrichtlinie zu*",
+    "submit": "Anfrage einreichen"
+  },
+  "footer": {
+    "copyright": "© 2025 Veronika Raum. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "imprint": "Impressum",
+    "attribution": "Bildnachweis"
+  }
+}
