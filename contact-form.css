@@ -1,0 +1,82 @@
+/* === CONTACT FORM STYLES === */
+
+/* Form validation */
+.form-error {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: var(--body-font);
+}
+
+.error-field {
+    border-color: #e74c3c !important;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.2) !important;
+}
+
+/* Form submission messages */
+.form-message {
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-family: var(--body-font);
+    font-size: 0.95rem;
+    transition: opacity 0.5s ease;
+}
+
+.form-message.success {
+    background-color: rgba(52, 199, 89, 0.1);
+    border-left: 4px solid #34C759;
+    color: #2a6f3b;
+}
+
+.form-message.error {
+    background-color: rgba(231, 76, 60, 0.1);
+    border-left: 4px solid #e74c3c;
+    color: #a82315;
+}
+
+/* Submit button states */
+.submit-button:disabled {
+    opacity: 0.7;
+    cursor: wait;
+}
+
+.submit-button.success {
+    background-color: #34C759 !important;
+}
+
+/* Direct contact information highlight */
+.direct-contact {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.direct-contact-title {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.direct-contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.direct-contact-info i {
+    width: 30px;
+    color: var(--primary-color);
+}
+
+.direct-contact-info a {
+    color: var(--gray-dark);
+    transition: color 0.3s ease;
+}
+
+.direct-contact-info a:hover {
+    color: var(--primary-color);
+}

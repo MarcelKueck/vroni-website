@@ -1,0 +1,305 @@
+/* ===== SCROLL EFFECTS STYLES ===== */
+
+/* Hero Parallax Effect */
+.hero-image {
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+}
+
+.hero-overlay .container {
+    transition: transform 0.1s ease-out, opacity 0.1s ease-out;
+    will-change: transform, opacity;
+}
+
+/* Scroll Progress Indicator */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--accent-color);
+    z-index: 1100;
+    transition: width 0.1s ease-out;
+}
+
+/* Reveal Animation */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    will-change: opacity, transform;
+}
+
+.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Sticky Section Titles */
+.sticky-title-wrapper {
+    position: relative;
+    height: 0;
+    overflow: visible;
+    z-index: 10;
+}
+
+.sticky-title {
+    position: sticky;
+    top: 100px;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+    margin-bottom: 0;
+    opacity: 0;
+}
+
+.gray-bg .sticky-title {
+    background-color: rgba(240, 244, 247, 0.9);
+}
+
+/* Image Zoom Effect */
+.zoom-image {
+    transition: transform 1.5s ease;
+    will-change: transform;
+}
+
+.zoom-in {
+    transform: scale(1.05);
+}
+
+/* Stats Section */
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    text-align: center;
+}
+
+.stat-item {
+    flex: 1 1 200px;
+    margin: 20px 15px;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.stat-number::after {
+    content: '%';
+    font-size: 1.5rem;
+    position: absolute;
+    top: 8px;
+    opacity: 0.7;
+}
+
+.stat-item:nth-child(1) .stat-number::after,
+.stat-item:nth-child(2) .stat-number::after,
+.stat-item:nth-child(4) .stat-number::after {
+    content: '';
+}
+
+.stat-label {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    color: var(--gray-dark);
+}
+
+/* Horizontal Scrolling for Portfolio */
+.horizontal-scroll-wrapper {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.portfolio-grid {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+.portfolio-grid::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari/Opera */
+}
+
+.horizontal-scroll-indicator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    background-color: var(--primary-color);
+    transition: width 0.1s ease-out;
+}
+
+.touch-scroll-hint {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    background-color: rgba(10, 91, 122, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    animation: pulse 2s infinite;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.touch-scroll-hint i {
+    margin-right: 8px;
+    animation: slideRight 1.5s infinite;
+}
+
+.touch-scroll-hint.hide {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Floating Animation for Equipment Icons */
+#equipment .equipment-item i {
+    animation: float 3s ease-in-out infinite;
+}
+
+#equipment .equipment-item:nth-child(2) i {
+    animation-delay: 0.5s;
+}
+
+#equipment .equipment-item:nth-child(3) i {
+    animation-delay: 1s;
+}
+
+#equipment .equipment-item:nth-child(4) i {
+    animation-delay: 1.5s;
+}
+
+/* Timeline Animation for Process Steps */
+.process-timeline::before {
+    height: 0;
+    animation: growLine 1.5s forwards;
+    animation-delay: 0.5s;
+}
+
+/* Subtle Pulsing Effect for CTAs */
+.cta-button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    animation: subtlePulse 2s infinite;
+}
+
+/* Animation Keyframes */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(10, 91, 122, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(10, 91, 122, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(10, 91, 122, 0);
+    }
+}
+
+@keyframes slideRight {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes growLine {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes subtlePulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .sticky-title {
+        top: 80px;
+        font-size: 1.8rem;
+    }
+
+    .stat-item {
+        flex-basis: 40%;
+    }
+
+    .portfolio-grid {
+        padding: 20px 0;
+    }
+
+    .portfolio-item {
+        width: 280px !important;
+        margin-right: 20px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat-item {
+        flex-basis: 100%;
+    }
+}
