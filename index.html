@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veronika Raum | Medical Visual Storyteller</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Image Loading Message -->
+    <div id="image-loading-message" style="display: none;">
+        <div class="loading-container">
+            <h2>Images Need to be Downloaded</h2>
+            <p>Please follow these steps to complete website setup:</p>
+            <ol>
+                <li>Run the <code>download-images.js</code> script using Node.js</li>
+                <li>Make sure you have these prerequisites:
+                    <ul>
+                        <li>Node.js installed</li>
+                        <li>Run: <code>npm install node-fetch fs-extra</code></li>
+                        <li>Unsplash API key (edit the script to add yours)</li>
+                    </ul>
+                </li>
+                <li>Execute: <code>node download-images.js</code></li>
+                <li>Refresh this page after images are downloaded</li>
+            </ol>
+            <p>This message will disappear automatically once images are in place.</p>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#"><span>Veronika Raum</span><span class="subtitle">Medical Visual Storyteller</span></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#contact" class="cta-button">Contact</a></li>
+                    </ul>
+                    <div class="mobile-menu-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <!-- Using image instead of video for simplicity -->
+            <div class="hero-image">
+                <img src="images/hero-1.jpg" alt="Medical Visual Storytelling">
+            </div>
+            <div class="hero-overlay">
+                <div class="container">
+                    <h1>Where Medical Expertise Meets Visual Storytelling Excellence</h1>
+                    <p>Crafting scientifically precise and emotionally compelling visual narratives for the healthcare sector</p>
+                    <a href="#contact" class="cta-button">Discuss Your Medical Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Focus Section -->
+    <section id="medical-focus" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Specialized Medical Visual Expertise</h2>
+            <div class="focus-categories">
+                <div class="focus-card">
+                    <div class="focus-image">
+                        <img src="images/medical-technology-1.jpg" alt="Medical Technology">
+                    </div>
+                    <h3>Medical Technology Innovators</h3>
+                    <p>Visualizing complex medical innovations with scientific precision and compelling narratives</p>
+                </div>
+                <div class="focus-card">
+                    <div class="focus-image">
+                        <img src="images/private-practice-1.jpg" alt="Private Practice">
+                    </div>
+                    <h3>Private Practice Specialists</h3>
+                    <p>Creating visual stories that balance medical authority with patient approachability</p>
+                </div>
+                <div class="focus-card">
+                    <div class="focus-image">
+                        <img src="images/healthcare-institution-1.jpg" alt="Healthcare Institutions">
+                    </div>
+                    <h3>Healthcare Institutions & Companies</h3>
+                    <p>Developing comprehensive visual communication strategies for complex healthcare organizations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Case Studies -->
+    <section id="featured-cases" class="section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title">Featured Case Studies</h2>
+            <div class="case-studies">
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="images/medical-technology-1.jpg" alt="Devanthro Case Study">
+                    </div>
+                    <div class="case-content">
+                        <div class="case-tag">Medical Technology</div>
+                        <h3>Devanthro: The Robody Company</h3>
+                        <p>Visualizing complex robotic technology with medical applications, resulting in 40% increase in investor comprehension.</p>
+                        <a href="#" class="text-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="images/private-practice-2.jpg" alt="Kinderklinik Case Study">
+                    </div>
+                    <div class="case-content">
+                        <div class="case-tag">Private Practice</div>
+                        <h3>Kinderklinik Dr. Habilt Groebenzell</h3>
+                        <p>Communicating specialized pediatric care with warmth and precision, resulting in 35% increase in new patient inquiries.</p>
+                        <a href="#" class="text-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="images/healthcare-institution-2.jpg" alt="Healthcare Institution Case Study">
+                    </div>
+                    <div class="case-content">
+                        <div class="case-tag">Healthcare Institution</div>
+                        <h3>Regional Medical Center</h3>
+                        <p>Creating comprehensive facility visualization that connects innovation with patient outcomes.</p>
+                        <a href="#" class="text-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dual Expertise -->
+    <section id="dual-expertise" class="section-padding">
+        <div class="container">
+            <div class="expertise-content">
+                <div class="expertise-text">
+                    <h2 class="section-title">Dual Expertise Advantage</h2>
+                    <p class="lead">Active medical education combined with mastery of professional visual equipment creates a unique perspective that transforms healthcare communication.</p>
+                    <ul class="expertise-list">
+                        <li><i class="fas fa-check-circle"></i> Scientific accuracy in all visual narratives</li>
+                        <li><i class="fas fa-check-circle"></i> Proper medical terminology and conceptual understanding</li>
+                        <li><i class="fas fa-check-circle"></i> Regulation-compliant content creation</li>
+                        <li><i class="fas fa-check-circle"></i> Ability to translate complex medical concepts visually</li>
+                        <li><i class="fas fa-check-circle"></i> Efficient collaboration with healthcare professionals</li>
+                    </ul>
+                </div>
+                <div class="expertise-image">
+                    <img src="images/expertise-1.jpg" alt="Dual Expertise Visualization">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Showcase -->
+    <section id="equipment" class="section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title">Professional Equipment Specialized for Medical Environments</h2>
+            <div class="equipment-grid">
+                <div class="equipment-item">
+                    <i class="fas fa-video"></i>
+                    <h3>4K Medical-Grade Cameras</h3>
+                    <p>Ultra-high definition capture with specialized color accuracy for medical procedures</p>
+                </div>
+                <div class="equipment-item">
+                    <i class="fas fa-cog"></i>
+                    <h3>Stabilization Systems</h3>
+                    <p>Advanced equipment for smooth documentation of medical procedures</p>
+                </div>
+                <div class="equipment-item">
+                    <i class="fas fa-drone"></i>
+                    <h3>Aerial Documentation</h3>
+                    <p>Comprehensive facility visualization with precision drone technology</p>
+                </div>
+                <div class="equipment-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Specialized Lighting</h3>
+                    <p>Medical-grade lighting for accurate tissue and color rendering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="section-padding">
+        <div class="container">
+            <div class="testimonial-container">
+                <div class="quote-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <blockquote>
+                    Veronika's unique combination of medical knowledge and visual storytelling expertise allowed us to communicate our complex robotic technology with unprecedented clarity. Her work has been instrumental in helping both investors and healthcare partners understand our innovation.
+                </blockquote>
+                <div class="client-info">
+                    <img src="images/client-1.jpg" alt="Dr. Stefan Schwarz" class="client-image">
+                    <div class="client-details">
+                        <p class="client-name">Dr. Stefan Schwarz</p>
+                        <p class="client-position">Devanthro GmbH</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding gray-bg">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/veronika-1.jpg" alt="Veronika Raum">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Veronika Raum</h2>
+                    <p class="lead">Standing at the intersection of medical science and visual artistry with a unique dual expertise.</p>
+                    <p>With parallel paths in medicine and visual storytelling, I bring a rare perspective to healthcare communication. My active medical education ensures scientific precision, while my mastery of professional visual equipment enables compelling storytelling.</p>
+                    <p>Based in Munich, I exclusively serve the healthcare sector, partnering with medical technology startups, private practitioners, hospitals, and healthcare companies to elevate their visual communication strategies.</p>
+                    <div class="about-cta">
+                        <a href="#contact" class="cta-button">Discuss Your Medical Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-nav">
+                <button class="portfolio-filter active" data-filter="all">All Projects</button>
+                <button class="portfolio-filter" data-filter="technology">Medical Technology</button>
+                <button class="portfolio-filter" data-filter="practice">Private Practice</button>
+                <button class="portfolio-filter" data-filter="institution">Healthcare Institutions</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Technology Projects -->
+                <div class="portfolio-item technology">
+                    <div class="portfolio-image">
+                        <img src="images/medical-technology-1.jpg" alt="Devanthro Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-caption">
+                                <h3>Devanthro Medical Robotics</h3>
+                                <p>Medical Technology Visualization</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item technology">
+                    <div class="portfolio-image">
+                        <img src="images/medical-technology-2.jpg" alt="Medical Device Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-caption">
+                                <h3>Surgical Device Visualization</h3>
+                                <p>Medical Equipment Documentation</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Practice Projects -->
+                <div class="portfolio-item practice">
+                    <div class="portfolio-image">
+                        <img src="images/private-practice-1.jpg" alt="Kinderklinik Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-caption">
+                                <h3>Kinderklinik Dr. Habilt</h3>
+                                <p>Pediatric Care Storytelling</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item practice">
+                    <div class="portfolio-image">
+                        <img src="images/private-practice-3.jpg" alt="Medical Practice Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-caption">
+                                <h3>Specialized Clinic Environment</h3>
+                                <p>Practice Documentation</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Institution Projects -->
+                <div class="portfolio-item institution">
+                    <div class="portfolio-image">
+                        <img src="images/healthcare-institution-1.jpg" alt="Hospital Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-caption">
+                                <h3>Regional Hospital Facility</h3>
+                                <p>Healthcare Environment Visualization</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item institution">
+                    <div class="portfolio-image">
+                        <img src="images/healthcare-institution-3.jpg" alt="Research Center Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-caption">
+                                <h3>Medical Research Center</h3>
+                                <p>Scientific Workflow Documentation</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-cta">
+                <a href="#contact" class="cta-button">Discuss Your Medical Visual Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Precisely defined visual offerings for the medical sector</p>
+            
+            <div class="services-container">
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Medical Innovation Documentation</h3>
+                    <ul class="service-list">
+                        <li>Precision product visualization with clinical context</li>
+                        <li>Surgical/procedural application footage</li>
+                        <li>R&D process storytelling</li>
+                        <li>Technical specification visualization</li>
+                        <li>Comparative effectiveness demonstration</li>
+                    </ul>
+                </div>
+                
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Healthcare Environment Visualization</h3>
+                    <ul class="service-list">
+                        <li>Facility documentation with architectural precision</li>
+                        <li>Treatment space showcases emphasizing patient experience</li>
+                        <li>Equipment and technology integration</li>
+                        <li>Sterile environment filming with proper protocols</li>
+                        <li>Aerial facility perspectives (drone capabilities)</li>
+                    </ul>
+                </div>
+                
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Medical Professional Storytelling</h3>
+                    <ul class="service-list">
+                        <li>Physician and specialist profile development</li>
+                        <li>Clinical team dynamics documentation</li>
+                        <li>Surgical excellence communication</li>
+                        <li>Expert commentary and thought leadership content</li>
+                        <li>Conference presentation and speaking documentation</li>
+                    </ul>
+                </div>
+                
+                <div class="service-category">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Patient Education Visualization</h3>
+                    <ul class="service-list">
+                        <li>Procedure explanation with anatomical accuracy</li>
+                        <li>Treatment option comparison visualizations</li>
+                        <li>Preparation and recovery guidance imagery</li>
+                        <li>Complex medical concept simplification</li>
+                        <li>Condition management visualization</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <a href="#contact" class="cta-button">Inquire About Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Process -->
+    <section id="process" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Working Process</h2>
+            <p class="section-subtitle">A transparent approach designed for medical professionals</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="process-number">01</div>
+                    <div class="process-content">
+                        <h3>Discovery & Diagnosis</h3>
+                        <p>In-depth consultation on medical communication objectives, audience analysis, and compliance considerations.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">02</div>
+                    <div class="process-content">
+                        <h3>Strategic Planning</h3>
+                        <p>Shot list development with medical precision, environment assessment, and timeline development aligned with medical operations.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">03</div>
+                    <div class="process-content">
+                        <h3>Clinical Excellence Execution</h3>
+                        <p>On-site filming with minimal disruption, strict adherence to sterile protocols, and scientific accuracy verification.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">04</div>
+                    <div class="process-content">
+                        <h3>Post-Production Precision</h3>
+                        <p>Medical accuracy review, color grading for clinical accuracy, and compliance verification before delivery.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">05</div>
+                    <div class="process-content">
+                        <h3>Delivery & Implementation</h3>
+                        <p>Final outputs delivered in multiple formats, usage guidance, and archive maintenance for future content needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Showcase -->
+    <section id="clients" class="section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title">Client Showcase</h2>
+            <p class="section-subtitle">A prestigious portfolio of healthcare clients</p>
+            
+            <div class="client-categories">
+                <div class="client-category">
+                    <h3>Medical Technology</h3>
+                    <div class="client-logos">
+                        <div class="client-logo">
+                            <img src="images/medical-technology-1.jpg" alt="Devanthro">
+                            <p>Devanthro (The Robody Company)</p>
+                        </div>
+                        <div class="client-logo">
+                            <img src="images/medical-technology-2.jpg" alt="Medical Startup">
+                            <p>Medical Technology Startup</p>
+                        </div>
+                        <div class="client-logo">
+                            <img src="images/medical-technology-3.jpg" alt="Medical Device Manufacturer">
+                            <p>Medical Device Manufacturer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="client-category">
+                    <h3>Private Practices</h3>
+                    <div class="client-logos">
+                        <div class="client-logo">
+                            <img src="images/private-practice-1.jpg" alt="Kinderklinik">
+                            <p>Kinderklinik Dr. Habilt</p>
+                        </div>
+                        <div class="client-logo">
+                            <img src="images/private-practice-2.jpg" alt="Specialized Clinic">
+                            <p>Specialized Clinic</p>
+                        </div>
+                        <div class="client-logo">
+                            <img src="images/private-practice-3.jpg" alt="Surgical Practice">
+                            <p>Surgical Practice</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="client-category">
+                    <h3>Healthcare Institutions</h3>
+                    <div class="client-logos">
+                        <div class="client-logo">
+                            <img src="images/healthcare-institution-1.jpg" alt="Regional Hospital">
+                            <p>Regional Hospital</p>
+                        </div>
+                        <div class="client-logo">
+                            <img src="images/healthcare-institution-2.jpg" alt="Medical Research Center">
+                            <p>Medical Research Center</p>
+                        </div>
+                        <div class="client-logo">
+                            <img src="images/healthcare-institution-3.jpg" alt="Pharmaceutical Company">
+                            <p>Pharmaceutical Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Resources</h2>
+            <p class="section-subtitle">A curated knowledge center establishing healthcare visual authority</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book-medical"></i>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-tag">Guide</div>
+                        <h3>Visual Communication Standards for Medical Audiences</h3>
+                        <p>Essential principles for effective visual storytelling in healthcare contexts.</p>
+                        <a href="#" class="text-link">Download Guide <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-tag">Case Study</div>
+                        <h3>Improving Patient Understanding Through Visual Storytelling</h3>
+                        <p>How visual narratives can enhance comprehension of complex medical information.</p>
+                        <a href="#" class="text-link">Read Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-medical-alt"></i>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-tag">Article</div>
+                        <h3>Regulatory Compliance in Healthcare Visual Documentation</h3>
+                        <p>Navigating legal requirements for medical visual content creation.</p>
+                        <a href="#" class="text-link">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-tag">Resource</div>
+                        <h3>Technical Requirements for Medical Procedure Filming</h3>
+                        <p>Equipment specifications and protocols for clinical environment documentation.</p>
+                        <a href="#" class="text-link">View Resource <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding gray-bg">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">A streamlined process designed for healthcare professionals</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I accept a limited number of healthcare clients between my medical studies to ensure exceptional focus and excellence for each project.</p>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@veronikaraum.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+49 89 123 456 789</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Munich, Germany</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-note">
+                        <p><strong>Note:</strong> All client information is handled in accordance with GDPR and healthcare data compliance regulations.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Medical Project Inquiry</h3>
+                    <form id="medical-project-form">
+                        <div class="form-group">
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="organization">Organization*</label>
+                            <input type="text" id="organization" name="organization" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">Project Type*</label>
+                            <select id="project-type" name="project-type" required>
+                                <option value="" selected disabled>Select project type</option>
+                                <option value="medical-innovation">Medical Innovation Documentation</option>
+                                <option value="healthcare-environment">Healthcare Environment Visualization</option>
+                                <option value="medical-professional">Medical Professional Storytelling</option>
+                                <option value="patient-education">Patient Education Visualization</option>
+                                <option value="other">Other (please specify)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="" selected disabled>Select timeline</option>
+                                <option value="urgent">Urgent (within 2 weeks)</option>
+                                <option value="standard">Standard (2-4 weeks)</option>
+                                <option value="flexible">Flexible (1-3 months)</option>
+                                <option value="planning">Future Planning</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I consent to the processing of my data in accordance with the privacy policy*</label>
+                        </div>
+                        
+                        <button type="submit" class="cta-button submit-button">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#"><span>Veronika Raum</span><span class="subtitle">Medical Visual Storyteller</span></a>
+                </div>
+                
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Veronika Raum. All rights reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Imprint</a> | <a href="images/attribution.html" target="_blank">Image Attribution</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="image-loader.js"></script>
+</body>
+</html>
